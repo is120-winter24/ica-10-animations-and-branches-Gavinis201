@@ -1,1 +1,79 @@
 /* TEAMMATE ONE EDITS THESE STYLES FOR YOUR TASKS */
+.logo {
+   
+    display: inline-block;
+  }
+  
+  .logo img {
+   
+    width: 100px;
+    height: auto; 
+    transition: transform 0.3s, 
+                filter 0.3s; 
+  }
+  
+  .logo:hover img {
+    
+    transform: scale(1.1) rotate(5deg);
+    filter: brightness(1.2); 
+  }
+
+.box-with-quote {
+    position: relative; 
+    overflow: hidden; 
+  }
+  
+  
+  .quote {
+    padding: 20px; 
+    font-size: 18px; 
+    font-style: italic; 
+    background-image: linear-gradient(to right, transparent 0%, transparent 100%), linear-gradient(to right, transparent, red); /* Background gradient with only underline */
+    background-repeat: no-repeat; 
+    background-position: bottom; 
+    background-size: 0% 3px, auto; 
+    transition: background-size 0.3s; 
+  }
+  
+  
+  
+  
+  
+  
+
+.box-3 {
+    width: 100px; 
+    height: 100px; 
+    background-image: linear-gradient(to right, #ff0000, #00ff00); 
+    transition: background-image 0.5s; 
+  }
+  
+  
+  .box:hover {
+    animation: changeGradient 2s linear infinite; 
+  }
+ 
+  @keyframes changeGradient {
+    0% {
+      filter: hue-rotate(0deg); 
+    }
+    100% {
+      filter: hue-rotate(360deg); 
+    }
+  }
+  
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  .rotating-svg {
+    animation: rotate 5s linear infinite; 
+  }
+  
+   
