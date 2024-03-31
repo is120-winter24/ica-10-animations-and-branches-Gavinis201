@@ -8,12 +8,15 @@
   <title>Document</title>
   <link rel="stylesheet" href="../template.css">
   <link rel="stylesheet" href="./ica10-branch1.css">
+  <script src="https://kit.fontawesome.com/0bd961eb30.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
     <nav>
       <div class="logo">
-        <a href="#">Insert the Logo Here</a>
+        <a href="#">
+          <img src="./Red_star.png" alt="Logo">
+        </a>
       </div>
       <div class="nav-links">
         <ul>
@@ -28,18 +31,21 @@
     <section id="grid-wrapper">
       <div class="center-grid">
         <div class="box box-1">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="rotating-svg">
             <path id="circlePath" fill="none" stroke-width="4" stroke="hsl(0 100% 50% / 0.5)" d="
                     M 10, 50
                     a 40,40 0 1,1 80,0
                     a 40,40 0 1,1 -80,0
                   " />
-            <text id="text" font-family="monospace" font-size="12" font-weight="bold" fill="var(--text-1)">
-              <textPath id="textPath" href="#circlePath">Your text goes here!</textPath>
+            <text font-family="monospace" font-size="12" font-weight="bold" fill="var(--text-1)">
+              <textPath href="#circlePath">Your text goes here!</textPath>
             </text>
           </svg>
         </div>
-        <div class="box box-2"></div>
+        
+        <div class="box box-2">
+          
+        </div>
         <div class="box box-3"></div>
         <div class="box box-4"></div>
         <div class="box box-5"></div>
@@ -53,5 +59,6 @@
     </aside>
     
   </main>
+  <div class="container"></div>
 </body>
 </html>
